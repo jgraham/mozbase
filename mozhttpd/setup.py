@@ -5,7 +5,7 @@
 from setuptools import setup
 
 PACKAGE_VERSION = '0.6'
-deps = ['moznetwork >= 0.1']
+deps = ['wptserve >= 0.1', 'moznetwork >= 0.1']
 
 setup(name='mozhttpd',
       version=PACKAGE_VERSION,
